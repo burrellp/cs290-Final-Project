@@ -1,0 +1,53 @@
+html {
+	font-family: sans-serif;
+	text-align: center;
+	color: #E6B800;
+	text-shadow: 1px 1px 0 #262319; 
+}
+
+#banner {
+	width: 100%;
+	color: #E6B800;
+	font-style: oblique;
+	font-style: bold;
+	text-align: center;
+	padding: 20px;
+	font-size: 200%;
+	margin: -10px -10px -10px;
+	float: top;
+}
+
+body {
+	background-image: url("http://www.twitterevolutions.com/bgs/beer-foam.jpg");
+}
+
+form {
+	margin-left:auto;
+    margin-right:auto;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+table, th, td {
+	border: 3px #262319;
+}
+
+table.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#logOutForm {
+	float: right;
+	float: top;
+}
+
+#addBeer {
+	position: inline;
+}
+
+div {
+	position: relative;
+	display: inline;
+}

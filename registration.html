@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registration Page</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <?php include registration.php; ?>
+    <div id="banner">Drink, Drank, Drunk It</div>
+  <h1>Welcome to Drink, Drank, Drunk It!</h1>
+  <h2>Your home for all of your drink rating and tracking needs</h2>
+  <h3>New visitor to the site? Register here:</h3>
+    <form id="register" action="registration.php" method="POST" autocomplete="false">
+      <input style="display:none" type="text" name="fakeusernameremembered"/>
+      Create Username: <input id="new_username" type="text" name="new_username" autocomplete="false" required="required" minlength="6">
+      <span id="user-result"></span><br>
+      <input style="display:none" type="password" name="fakepasswordremembered"/>
+      Create Password: <input type="password" name="new_password" required="required" autocomplete="false" minlength= "6"><br>
+      <input type="submit" id="create_account" value="Create Account" disabled>
+      <h3>Already have an account?</h3>
+      <a href='login.php'>Login</a>
+    </form>
+    <script type="text/javascript">
+      setTimeout( 
+        function() {
+          document.getElementById("register").reset();
+        },
+        5
+        );
+      </script>
+    <script src="jquery.js"></script>
+    <script src="check_username.js"></script>
+ </body>
+</html>
