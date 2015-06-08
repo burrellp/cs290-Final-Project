@@ -27,5 +27,5 @@ $_SESSION["username"] = $username;
 $add_user = "INSERT INTO users (user_name, password) VALUES ('$username', '$hash')";
 $mysqli->query($add_user);
 //header("Location: welcomePage.php");
-header("Location: homePage.html");
+header("Location: homePage.php");
 ?>

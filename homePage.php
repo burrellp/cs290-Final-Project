@@ -29,7 +29,7 @@ $username = $_SESSION['username'];
 			Style of Beer<input name="style" type="text">
 			Name of Brewery<input name="brewery" type="text" required="required">
 			Name of Beer<input name="beer" type ="text" required="required"><br>
-			Your Rating (0.0-5.0)<input name="rating" type="number" required="required" min="0" max = "5"><br>
+			Your Rating (0.0-5.0)<input name="rating" type="number" required="required" min="0" max = "5">
 			Add comment<textarea name="comment"></textarea>
 			<input type="submit" id="addNow" value="Add Beer" onclick="updateInfo()">
 		</form>

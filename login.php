@@ -14,15 +14,15 @@ include 'private.php';
   <div id="banner">Drink, Drank, Drunk It</div>
   <h1>Welcome Back to Drink, Drank, Drunk It!</h1>
   <h2>Your home for all of your drink rating and tracking needs</h2>
-  <body>Enter your username and password to login<br>
+  <body><h3>Enter your username and password to login<h3><br>
     <form id="login" action="login.php" method="post">
       <input style="display:none" type="text" name="fakeusernameremembered"/>
-      Username: <input type="text" name="username" required="required"><br>
+      Username: <input type="text" name="username" required="required"><br><br>
       <input style="display:none" type="password" name="fakepasswordremembered"/>
-      Password: <input type="password" name="password" required="required"><br>
+      Password: <input type="password" name="password" required="required"><br><br>
       <button id="submit" name="submit">Login</button>
     </form>
-    <p>Don't have an account yet? Register <a href="registration.html">here.</a>
+    <h3>Don't have an account yet? Register <a href="registration.html">here.</a></h3>
   </body>
  </html>
 <?php

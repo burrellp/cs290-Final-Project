@@ -56,11 +56,11 @@ if(!$stmt->execute()) {
 <h3>Your Beers</h3>
 	  <table border = "1" class="center">
 	  	<tr>
-        <td>Style</td>
-      	<td>Brewery</td>
-      	<td>Beer Name</td>
-      	<td>Rating (0-5)</td>
-      	<td>Comment</td>
+        <th>Style</th>
+      	<th>Brewery</th>
+      	<th>Beer Name</th>
+      	<th>Rating (0-5)</th>
+      	<th>Comment</th>
       </tr>
 <?php
 //Add user beer data to table
@@ -79,13 +79,14 @@ while ($rowArr = $result->fetch_assoc()) {
 ?>
 </table >
 	<h3>See What Other Users Have Been Drinking</h3>
-	<table border="1" class="center"
+	<table border="1" class="center">
 	  	<tr>
-        <td>Style</td>
-      	<td>Brewery</td>
-      	<td>Beer Name</td>
-      	<td>Rating (0-5)</td>
-      	<td>Comment</td>
+        <th>Style</th>
+      	<th>Brewery</th>
+      	<th>Beer Name</th>
+      	<th>Rating (0-5)</th>
+      	<th>Comment</th>
+      </tr>
 
 <?php
 //$result2 = $stmt->get_result();
